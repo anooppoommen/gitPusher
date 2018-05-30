@@ -35,7 +35,7 @@ if(len(sys.argv) > 2):
     exit(0);
     
 print("Trying to push changes to repository")    
-# 1=>push ,128=> no internet
+# 1=>pull ,128=> no internet
 while 1:
     push  = os.system("git push origin master") 
     if push == 0 :
