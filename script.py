@@ -47,5 +47,5 @@ while 1:
         commit = os.system("git commit -am \"merge fixes\"")
     else:
         os.system("clear");
-        print("Something terrible has Happened. I can't connect to the internet boss!!")
+        print("Something terrible has Happened.\n I can't connect to the internet boss!!")
         break;
